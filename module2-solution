@@ -1,0 +1,91 @@
+<!doctype html>
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>MY MENU</title>
+<style>
+	@media(min-width: 992px)
+	{
+		.col-lg-1, .col-lg-2, .col-lg-3{float: left;
+			border: 1px solid white;}
+			.col-lg-1{width: 8.33%;}
+			.col-lg-2{width: 16.66%;}
+			.col-lg-3{width: 25%;}
+	}
+	@media(min-width: 768px) and (max-width: 991px){.col-md-1, .col-md-2, .col-md-3{float: left;
+			border: 1px solid white;
+			width: 80%}
+			.col-md-1{width: 16.66%;}
+			.col-md-2{width: 16.66%;}
+			.col-md-3{width: 100%;}}
+	@media(max-width: 767px){.col-sm-1, .col-sm-2, .col-sm-3{float: left;
+			border: 1px solid white;}
+			.col-sm-1{width: 8.33%;}
+			.col-sm-2{width: 16.66%;}
+			.col-sm-3{width: 25%;}}
+	p{
+		border: 1px solid black;
+		width: 90%;
+		height: 300px;
+		/*margin-right: auto;
+		margin-left: auto;*/
+		background-color: pink;
+/*		float: left;
+*/		margin-right: 40%;
+		top: 90px;
+		margin-left: 40%;
+		padding: 10px;
+		text-align: center;
+	}
+	h1{
+		border: 40px;
+		text-align: center;
+	}
+	h2{border: 1px absolute black;
+		top: 78px;
+		left: 424px;
+		width: 100px;
+		background-color: purple;
+		position: absolute;
+	}
+	h3{border: 1px absolute black;
+		top: 79px;
+		left: 808px;
+		width: 100px;
+		background-color: purple;
+		position: absolute;
+	}
+	h4{border: 1px absolute black;
+		top: 77px;
+		left: 1189px;
+		width: 100px;
+		background-color: purple;
+		position: absolute;
+	}
+	.row{
+		width: 100%;
+
+	}
+	/*section{
+		clear: left;
+	}
+*/
+</style>
+<body>
+	<h1>My Menu</h1>
+	<div class="row">
+		<div class="col-lg-3 col-md-3 col-sm-3">
+			<h2>Sushi</h2><p id="p1">Hello.
+			 Here we are going to talk about a popular Asian dish called Sushi. Made of rice and mustard and fish, it was a traditional dish in most parts of Asia like China, Japan and Taiwan.</p>
+		</div>
+		<div class="col-lg-3 col-md-3 col-sm-3"><h3>Chicken</h3><p id="p2">Hello.
+			 Here we are going to talk about a popular Asian dish called Sushi. Made of rice and mustard and fish, it was a traditional dish in most parts of Asia like China, Japan and Taiwan.</p>
+			</div>
+		<div class="col-lg-3 col-md-3 col-sm-3"><h4>Prawns</h4><p id="p3">Hello.
+			 Here we are going to talk about a popular Asian dish called Sushi. Made of rice and mustard and fish, it was a traditional dish in most parts of Asia like China, Japan and Taiwan.</p></div>
+	</div>
+</body>
+</head>
+</html>
